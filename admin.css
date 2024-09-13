@@ -121,3 +121,40 @@ a:hover {
         font-size: 1.2rem;
     }
 }
+/* Footer Styles */
+#footer {
+    background: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#footer .social-icons a {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+#footer .social-icons a:hover {
+    color: #007bff;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Optional: Add more specific styles for different social media platforms */
+#footer .social-icons a.facebook:hover {
+    color: #3b5998;
+}
+
+#footer .social-icons a.twitter:hover {
+    color: #00aced;
+}
+
+#footer .social-icons a.instagram:hover {
+    color: #e4405f;
+}
+
+#footer .social-icons a.linkedin:hover {
+    color: #0077b5;
+}

@@ -1,0 +1,65 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('Pic Cimange/main_BG.jpg');
+}
+
+.section-title {
+    font-size: 36px;
+    color: #333;
+}
+
+.section-subtitle {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.package-card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.package-card:hover {
+    transform: translateY(-10px);
+}
+
+.package-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 22px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #555;
+}
+
+.details-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.details-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Modal Styles */
+.modal-content {
+    padding: 20px;
+}
+
+.modal-title {
+    font-size: 24px;
+    color: #333;
+}
+
+#packageDescription {
+    font-size: 16px;
+    color: #555;
+}
